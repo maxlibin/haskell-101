@@ -94,10 +94,10 @@ In pattern matching you can use `_` as whatever this is, pattern matching can be
 
 Some good place to start haskell:
 
-tryhaskell.org
-learnhaskell.com
-book.realworldhaskell.org
-haskellbook.com
-haskell.org/hoogle/
+- https://tryhaskell.org
+- https://learnhaskell.com
+- https://book.realworldhaskell.org
+- https://haskellbook.com
+- https://haskell.org/hoogle/
 
 List in Haskell is represent by `(x:xs)`, it can be `[]` which is empty list. with `(x:xs)` which means list with head and list of `xs`
