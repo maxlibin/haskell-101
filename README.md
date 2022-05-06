@@ -100,4 +100,4 @@ book.realworldhaskell.org
 haskellbook.com
 haskell.org/hoogle/
 
-List in Haskell is represent by (x:xs), it can be [] which is empty list if (x:xs) which means list with head and list of xs
+List in Haskell is represent by `(x:xs)`, it can be `[]` which is empty list. with `(x:xs)` which means list with head and list of `xs`
