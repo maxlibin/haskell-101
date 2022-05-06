@@ -57,3 +57,47 @@ you can write like
 ```
 let example = fun $ x + y
 ```
+
+another popular operator which is dot (.)
+
+```
+(.):: (b -> c) -> (a -> b) -> (a -> c)
+```
+
+Type alias:
+
+```
+type Point = (Int, Int) -- tuple
+
+type Point = [Point] -- list
+
+type Map k v = [(k v)] --type parameter
+```
+
+User `data` to create a new dataType and use `type` to alias a type
+
+You can also declare struct inside a dataType
+
+```
+data User = User { userName:: String, userAge:: Int }
+```
+
+How to write functions in haskell, first give a type of the function then function: example
+
+```
+not:: Bool -> Bool -- Declare a function of not signature where takes in a Bool and returns a Bool
+not True = False
+not False = True -- Use pattern matching for simplify the expression
+```
+
+In pattern matching you can use `_` as whatever this is, pattern matching can be use for deconstruction
+
+Some good place to start haskell:
+
+tryhaskell.org
+learnhaskell.com
+book.realworldhaskell.org
+haskellbook.com
+haskell.org/hoogle/
+
+List in Haskell is represent by (x:xs), it can be [] which is empty list if (x:xs) which means list with head and list of xs
