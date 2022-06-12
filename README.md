@@ -101,3 +101,19 @@ Some good place to start haskell:
 - https://haskell.org/hoogle/
 
 List in Haskell is represent by `(x:xs)`, it can be `[]` which is empty list. with `(x:xs)` which means list with head and list of `xs`
+
+## Getting started
+
+To get started with Haskell tools, easist way is to install from "https://www.haskell.org/ghcup/" and load up with `ghcup tui` to see all tools you have installed.
+
+Create a file `hello.hs`
+
+add:
+
+```
+main = putStrLn "hello world"
+```
+
+save and compile with `ghc -o hello hello.hs`
+
+run the program with `./hello`
